@@ -1,12 +1,14 @@
 import './App.css'
+//components
+import Footer from './components/Footer'
+import Resume from './components/pages/Resume'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>Victoria McNorrill</h1>
-      </div>
+      <Resume />
+      <Footer/>
     </>
   )
 }
