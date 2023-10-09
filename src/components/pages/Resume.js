@@ -4,14 +4,26 @@ import TechSkills from '../utils/techSkills'
 
 const Resume = () => {
     return (
-        <section id="resume" className="" >
-            <p className="title">RESUME</p>
-            <div className="">
-                <a href={ResumePDF} target="_blank" rel="noreferrer"><button className="button subtitle">Click to View</button></a>
+        <section id="resume" className="">
+            <div className="card w-96 bg-neutral text-neutral-content">
+                <div className="card-body items-center text-center">
+                    <h2 className="card-title">RESUME</h2>
+                    <p>Contact information and references Available Upon Request</p>
+                    <div className="card-actions justify-end">
+                    <a href={ResumePDF} target="_blank" rel="noreferrer">
+                        <button className="btn btn-primary">Click to View Resume</button>
+                     </a>
+                     <a href="https://www.linkedin.com/in/victoria-mcnorrill/" target="_blank" rel="noreferrer">
+                     <button className="btn btn-info">LinkedIn</button>
+                     </a>
+                    </div>
+                </div>
             </div>
-            <div className="">
-                <p className="">Proficiencies</p>
+            <div className="card w-96 bg-neutral text-neutral-content">
+                <div className="card-body items-center text-center">
+                <h2 className="card-title">PROFICIENCIES</h2>
                 <TechSkills/>
+                </div>
             </div>
 
         </section>

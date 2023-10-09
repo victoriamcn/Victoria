@@ -39,9 +39,9 @@ const techSkillsList = [
 let TechSkills = () => {
     return <div>
         {techSkillsList.map((skill, i) => (
-            <span key={i} data-value={skill} className="tag m-1">
+            <div key={i} data-value={skill} className="badge badge-accent">
                 {skill}
-            </span>
+            </div>
         ))}
     </div>;
 }
