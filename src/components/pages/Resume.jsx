@@ -9,7 +9,7 @@ const Resume = () => {
             <div className="grid flex-grow card w-96 bg-neutral text-neutral-content">
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">RESUME</h2>
-                    <p>Contact information and references Available Upon Request</p>
+                    <p>Contact information and references available upon request.</p>
                     <div className="card-actions justify-end">
                     <a href={ResumePDF} target="_blank" rel="noreferrer">
                         <button className="btn btn-primary">Click to View Resume</button>
