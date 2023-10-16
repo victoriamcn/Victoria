@@ -12,10 +12,10 @@ const Resume = () => {
                     <p>Contact information and references available upon request.</p>
                     <div className="card-actions justify-end">
                     <a href={ResumePDF} target="_blank" rel="noreferrer">
-                        <button className="btn btn-primary">Click to View Resume</button>
+                        <button className="btn btn-primary">View Resume</button>
                      </a>
                      <a href="https://www.linkedin.com/in/victoria-mcnorrill/" target="_blank" rel="noreferrer">
-                     <button className="btn btn-info">LinkedIn</button>
+                     <button className="btn btn-info">Go to LinkedIn</button>
                      </a>
                     </div>
                 </div>
